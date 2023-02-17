@@ -9,11 +9,11 @@ ____________________________________________________________________________
 
 - Tecnologias utilizadas no desenvolvimento do projeto
 
-- Estrutura do site HTML-5 
-- Estilização CSS-3
-- Linguagem JavaScript
-- Framework jQuery
-- Lib CDNJS 
+- Estrutura do site / HTML-5 
+- Estilização / CSS-3
+- Linguagem / JavaScript
+- Framework / jQuery
+- Lib / CDNJS 
 _____________________________________________________________________________
 
 - IMG utilizada no background do site
