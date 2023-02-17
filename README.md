@@ -1,11 +1,10 @@
 # My-portfolio
 
-- Projeto criado para utilização propria . Andre Moraes 
-- url http://andremoraesdev.epizy.com/
+- Prejeto desenvolvido para apresentação como Dev Fullstack 
 ____________________________________________________________________________
 
 - Criação de um site portfólio responsivo
-- Prejeto desenvolvido para apresentação como Dev Fullstack 
+- URL http://andremoraesdev.epizy.com/
 ____________________________________________________________________________
 
 - Tecnologias utilizadas no desenvolvimento do projeto
