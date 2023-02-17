@@ -4,7 +4,7 @@
 - url http://andremoraesdev.epizy.com/
 ____________________________________________________________________________
 
-- Criação de um site portfólio responsivo para Mobile e IOS
+- Criação de um site portfólio responsivo
 - Prejeto desenvolvido para apresentação como Dev Fullstack 
 ____________________________________________________________________________
 
