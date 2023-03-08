@@ -22,5 +22,5 @@ _____________________________________________________________________________
 
 ____________________________________________________________________________
 
-- Um portfólio pode ser uma ferramenta bastante importante para promover qualquer carreira, ele funciona como uma vitrine dos trabalhos, apresentando as habilidades, qualificações, formação e experiência do profissional. Além disso, a ferramenta expõe uma pequena parte de sua personalidade. 
+- Um portfólio pode ser uma ferramenta bastante importante para promover qualquer carreira,funciona como uma vitrine dos trabalhos, apresentando as habilidades, qualificações, formação e experiência do profissional. Além disso a ferramenta expõe uma pequena parte de sua personalidade. 
 
