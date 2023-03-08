@@ -33,7 +33,13 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-    $('.carousel').owlCarousel({
+
+    $('.menu-c').click(function(){
+        $('.navbar .menu').toggleClass("active");
+
+    });
+    
+    $('.carousel').Carousel({
         margin:20,
         loop:true,
         autoplayTimeOut:2000,

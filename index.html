@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="estilo.css" />
     <title>Portfólio | Front</title>
   </head>
   <body>
-    <div class="scroll-up-btn">
+    <div class="scroll-up-btn"  >
       <ion-icon name="chevron-up-outline"></ion-icon>
     </div>
     <div class="navbar">
@@ -17,12 +18,12 @@
           <a href="#home">Port<span>fólio</span></a>
         </div>
         <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#skills">Especialidade</a></li>
-          <li><a href="#project">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <li class="menu-c"><a href="#home">Home</a></li> 
+          <li class="menu-c"><a href="#about">Sobre</a></li>
+          <li class="menu-c"><a href="#services">Serviços</a></li>
+          <li class="menu-c"><a href="#skills">Especialidade</a></li>
+          <li class="menu-c"><a href="#project">Projetos</a></li>
+          <li class="menu-c"><a href="#contact">Contato</a></li>
         </ul>
         <div class="menu-btn">
           <ion-icon name="menu-outline"></ion-icon>
@@ -37,7 +38,7 @@
           <div class="text-1">Ola, meu nome é</div>
           <div class="text-2">André Moraes</div>
           <div class="text-3">eu sou <span class="typing"></span></div>
-          <a href="#">Contratar-me</a>
+          <a href="https://wa.me/5579998256159">Contratar-me</a>
         </div>
       </div>
     </section>
@@ -45,32 +46,40 @@
     <!--sessão sobre-->
     <section class="about" id="about">
       <div class="max-width">
-        <h2 class="title">Sobre</h2>
-        <div class="about-content">
+        <h2 class="title">Sobre</h2>  
+        <div class="about-content">     
           <div class="column left">
             <img src="image/Moraes.jpg" alt="" />
           </div>
           <div class="column right">
-            <div class="text">Sou André e sou <span>Dev</span></div>
-            <p>
-              Desenvolvedor-full-stack sou apaixonado por programação e estou
-              estudando há 1 ano e 6 meses, e nesse período de aprendizado continuo aprimorando meu conhecimento sobre as tecnologias que venho utilizando.
+            <div class="text">Sou André e sou</div>
+            <div class="text"><span class="typing-2"></span></div>
+            <p class="p1">
+              Sou um desenvolvedor apaixonado por tecnologia, e entendo que resolver problemas é um de meus objetivos de vida.
+              Meu maior objetivo é um dia me tornar Engenheiro de Software em uma das grandes empresas de tecnologia. Para isso estudo, leio e programo todos os dias, buscando sempre adquirir um novo conhecimento.
+              <br>
             </p>
-            <br>
-              <p>
-              tenho facilidade de aprender tecnologias que possa ser utilizada no ato do desenvolvimento.
+            <p class="p2">
+              <br>
+                <div class="text2">Minhas habilidades <span>Hard skills</span></div>
+                Com conhecimento em desenvolvimento front-end em Javascript, ReactJS, Html5, Styled Components, Bootstrap, CSS3 e Material UI e desenvolvimento back-end em infraestrutura, Node.js. Banco de dados MySQL. Busco aprender e evoluir a cada dia para me tornar um profissional de alto nível.
               </p>
               <br>
-            <p>
-              Minhas habilidades com soft-skills
-              <br>
-              - Sou bastante alegre.
-              <br>
-              - Gosto de discutir metodologias de desenvolvimento com a equipe.
-              <br>
-              - Atencioso a cada informação que possa ajuda na melhoria do desenvolvimento.
-            </p>
-            <br>
+              <div class="text3">Minhas habilidades <span>Soft skills</span></div>
+               <div class="text4">
+                  <p class="p3">
+                    Dialogar metodologias de desenvolvimento com a equipe para ajudar, e também responder prontamente a qualquer dúvida ou questionamento feito por um membro da equipe.
+                  </p><br/>
+                  <p class="p4">
+                    Atencioso a cada informação que possa ajuda na melhoria do desenvolvimento como utilizar boas práticas, comentar adequadamente código e deixa legivel.    
+                  </p><br/>
+                  <p class="p5">
+                    Iniciativas em situações onde exige uma solução específica, como oportunidade de desenvolver liderança.
+                  </p><br />
+                  <p class="p6">
+                    Tenho experiência em trabalhar com equipes.
+                  </p>  
+              </div>
             <!-- Button do download do curriculo <a href="#"target="_blank">Download CV</a>-->
           </div>
         </div>
@@ -85,14 +94,14 @@
           <div class="card">
             <div class="box">
               <ion-icon name="brush-outline"></ion-icon>
-              <div class="text">Frontend</div>
+              <div class="text">Front-end</div>
             </div>
           </div>
 
           <div class="card">
             <div class="box">
               <ion-icon name="trending-up-outline"></ion-icon>
-              <div class="text">Backend</div>
+              <div class="text">Back-end</div>
             </div>
           </div>
 
@@ -113,7 +122,7 @@
         <div class="skills-content">
           <div class="column left">
             <div class="text">Minhas habilidades e experiencias</div>
-            <p>Essas são as hard-skills e Framework que ja trabalhei.</p>
+            <p>Essas são as hard skills e Framework que ja trabalhei.</p>
             <a href="https://github.com/Andremoraes-se" target="_blank"
               >Mais informaçoes</a>
           </div>
@@ -152,7 +161,15 @@
 
             <div class="bars">
               <div class="info">
-                <span>Node-js</span>
+                <span>PHP</span>
+                <span>30%</span>
+              </div>
+              <div class="line php"></div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>Node.js</span>
                 <span>25%</span>
               </div>
               <div class="line node"></div>
@@ -168,7 +185,7 @@
 
             <div class="bars">
               <div class="info">
-                <span>React-js</span>
+                <span>ReactJS</span>
                 <span>25%</span>
               </div>
               <div class="line react"></div>
@@ -177,7 +194,7 @@
             <div class="bars">
               <div class="info">
                 <span>jquery</span>
-                <span>25%</span>
+                <span>20%</span>
               </div>
               <div class="line jquery"></div>
             </div>
@@ -201,9 +218,10 @@
           <div class="card">
             <div class="box">
               <a href="https://github.com/Andremoraes-se/RocketQ-" target="_blank"><img src="image/img-2.png" alt="" ></a>
-              <div class="text">Rocket-Q é um projedo do NLW 6</div>
+              <div class="text">Rocket-Q </div>
             </div>
           </div>
+          
 
           <div class="card">
             <div class="box">
@@ -222,6 +240,7 @@
         <div class="contact-content">
           <div class="column left">
             <div class="icons">
+
               <div class="row">
                 <ion-icon name="person-outline"></ion-icon>
                 <div class="info">
@@ -229,6 +248,7 @@
                   <div class="sub-title">André Moraes</div>
                 </div>
               </div>
+
               <div class="row">
                 <ion-icon name="earth-outline"></ion-icon>
                 <div class="info">
@@ -238,12 +258,13 @@
               </div>
 
               <div class="row">
-                <ion-icon name="person-outline"></ion-icon>
+                <ion-icon name="mail-outline"></ion-icon>
                 <div class="info">
                   <div class="head">Email</div>
                   <div class="sub-title">Andremoraes_se@hotmail.com.br</div>
                 </div>
               </div>
+
             </div>
           </div>
           <!--column left-->
